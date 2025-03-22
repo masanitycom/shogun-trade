@@ -1,0 +1,40 @@
+# 環境変数
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 依存関係
+/node_modules
+/.pnp
+.pnp.js
+
+# ビルド出力
+/build
+/dist
+/.next/
+/out/
+
+# キャッシュ
+.cache/
+.npm
+.eslintcache
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# エディタ設定
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# Heroku
+.env.heroku
